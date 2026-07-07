@@ -1,0 +1,21 @@
+# Core deep-learning stack
+# On Google Colab, TensorFlow is pre-installed with GPU support — the pinned
+# ranges below are compatible with Colab's runtime. On Apple Silicon, also
+# install `tensorflow-metal` for GPU acceleration (see README).
+tensorflow>=2.16,<2.20
+
+# Numerics & data
+numpy>=1.23,<2.2
+pandas>=2.0
+scikit-learn>=1.3
+
+# Image I/O and preprocessing
+opencv-python-headless>=4.8,<5.0
+pillow>=9.0
+
+# Plotting
+matplotlib>=3.7
+
+# Dataset download (Kaggle primary, Hugging Face mirror fallback)
+kagglehub>=0.3
+huggingface_hub>=0.23
